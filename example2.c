@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+  
+  int i,j;
+
+  for(i = 0; i <= 5; i++){
+    int j;
+    
+    for(j = 0; j < i; j++){
+      if(j == i-1){
+        printf("*");
+      }
+      else{
+        printf(" ");
+      }
+    }
+    printf("\n");
+  }
+
+  return 0;
+}
